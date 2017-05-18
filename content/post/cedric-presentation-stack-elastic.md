@@ -2,8 +2,9 @@
 date = "2017-05-18T09:46:51+02:00"
 draft = false
 title = "Présentation de la stack Elastic"
+slug= "presentation-de-la-stack-elastic"
 description = "Et si on transformait des dizaines de milliers de lignes de fichiers Log en graphiques sexy ? Découvrons ensemble la solution proposée par la stack Elastic"
-image= "http://lemon-cake.fr/wp-content/uploads/2016/09/Banner-Elastic.jpg"
+image= "/posts/elastic/banner-elastic.jpg"
 author= "Cédric Charière Fiedler"
 
 +++
@@ -23,11 +24,11 @@ La **Stack Elastic** pour Beats, ElasticSearch, Logstash et Kibana, est un agré
 En bref, **les agents Beats** collectent des informations sur des systèmes distants et abstraient leur transmission à une ou plusieurs destinations distantes.  
 **Logstash** est un outil dédié à l'extraction d'informations depuis des sources de données hétérogènes, leur transformation et leur transmission.   
 **ElasticSearch** permet de réaliser un moteur de recherche. Il fournit un service d’interrogation et gestion des données s’appuyant sur une architecture REST. Ce service est consommé par l’application web Kibana, exposant une interface graphique simple d'utilisation permettant à l’utilisateur de monitorer en temps réel l'état des fichiers log.
-<p style="text-align: center;"><img src="http://lemon-cake.fr/wp-content/uploads/2016/08/StructureStackElastic.jpg" alt="" /><em>Structure d'une stack Elastic</em></p>
+<p style="text-align: center;"><img src="/posts/elastic/elastic-structure.jpg" alt="" /><em>Structure d'une stack Elastic</em></p>
 L’objectif de la solution est de représenter le contenu de plusieurs fichiers log en un ensemble de graphiques dynamiques.
-<p style="text-align: center;"><img class="aligncenter" src="http://www.labo-microsoft.org/articles/MDOP2009-Application-Virtualization/images/clientLogParser02.JPG" alt="" width="300px" />
+<p style="text-align: center;"><img class="aligncenter" src="/posts/elastic/log-file.jpg" alt="" width="600px" />
 <em>Un fichier de log</em></p>
-<p style="text-align: center;"><img class=" aligncenter" src="http://ifconfig-a.com/wp-content/uploads/2014/01/App-Track-Kibana.png" alt="" width="300px" />
+<p style="text-align: center;"><img class=" aligncenter" src="/posts/elastic/App-Track-Kibana.png" alt="" width="600px" />
 <em>Interface Kibana présentant une synthèse graphique de données</em></p>
 
 Ces outils sont proposés par l'entreprise Elastisearch BV. Ils peuvent être utilisés librement et gratuitement dans leur version OpenSource.
@@ -38,7 +39,7 @@ L'entreprise propose également des forfaits payants, proposant des solutions h�
 
 &nbsp;
 
-[caption id="" align="aligncenter" width="294"]<img class="" src="https://www.elastic.co/guide/en/logstash/current/static/images/logstash.png" alt="" width="294" height="161" /> IllustrationLogstash[/caption]
+<img class="" src="/posts/elastic/logstash.png" alt="" width="600"  /> IllustrationLogstash
 
 > Logstash is an open source data collection engine with real-time pipelining capabilities.
 ***cf Documentation***[https://www.elastic.co/guide/en/logstash/current/introduction.html](https://www.elastic.co/guide/en/logstash/current/introduction.html)
@@ -52,7 +53,7 @@ Logstash fonctionne en trois étapes séquentielles :
 - **la transmission des données (Output)**. 
 
 
-<p style="text-align: center;"><img class="size-full wp-image-926" src="http://lemon-cake.fr/wp-content/uploads/2016/08/PipelineLogstash.jpg" alt="PipelineLogstash" width="306" height="547" />
+<p style="text-align: center;"><img class="size-full wp-image-926" src="/posts/elastic/PipelineLogstash.jpg" alt="PipelineLogstash" width="306" height="547" />
 <em>Diagramme de la pipeline Logstash</em></p>
 
 L'étape d'extraction décrit les sources de données. Logstash s'appuie sur un écosystème fournit de plugins. Il est ainsi possible de récupérer des données depuis un fichier, une requête SQL, un flux twitter, un fichier csv... Certains plugins fournissent des options de configuration supplémentaires permettant d'affiner l'extraction des données.
