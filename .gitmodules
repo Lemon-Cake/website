@@ -1,0 +1,3 @@
+[submodule "themes/bleak"]
+	path = themes/bleak
+	url = git@github.com:Lemon-Cake/hugo-theme-bleak.git
