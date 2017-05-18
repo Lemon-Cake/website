@@ -1,3 +1,28 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = ""
+languageCode = "fr-fr"
+title = "Lemon Cake"
+
+[params]
+  # Warning Keys are case sensitives
+  Subtitle = "Goûtez aux saveurs acidulées du web !"
+  description = "Everything is awesome !"
+  cover = "/img/bg.jpg"
+
+  # Google analytics
+  # googleAnalyticsUserID = "UA-xxxxxxxx-x"
+  # domainVerification = "xxxxxxxxxxxxxxxxxxxxx"
+  # disqus = "xxxxxxxxx"
+
+  [params.author]
+    # firstName = "FirstName"
+    # lastName = "LastName"
+    # gender = "(fe)?male"
+    # userName = "username"
+    # image = "//www.gravatar.com/avatar/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.png"
+    # website = "http://www.foo.com"
+    # twitter = "xxxxxxx"
+    # github = "xxxxxxx"
+    # facebook = "xxxxxxxxx"
+    # linkedin = "xxxxxxxxx"
+    # gplus = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    # gravatarHash = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
