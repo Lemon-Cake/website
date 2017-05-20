@@ -1,14 +1,14 @@
 +++
 date = "2016-11-07T12:15:32+00:00"
 draft = false
-title = "Résoudre "Impossible d’ouvrir l’application avec le compte Administrateur intégré""
+title = "Résoudre \"Impossible d’ouvrir l’application avec le compte Administrateur intégré\""
 slug = "resoudre-impossible-d-ouvrir-l-application-avec-le-compte-administrateur-integre"
 tags = ["Problème","Tutorial","Tutoriaux","Windows"]
 image = "https://www.babeuloula.fr/images/blog/head/impossible-d-ouvrir-l-application-avec-le-compte-administrateur-integre.jpg"
 comments = true
 share = true
 author = "BaBeuloula"
-description = "Comment résoudre l'erreur "Impossible d’ouvrir l’application avec le compte Administrateur intégré" sous Windows 10"
+description = "Comment résoudre l'erreur \"Impossible d’ouvrir l’application avec le compte Administrateur intégré\" sous Windows 10"
 +++
 
 J'ai récement fais l'acquisition de **Gears Of War 4** sur ma console **Xbox One** et j'ai voulu bénéficier de la nouvelle foncitonnalité proposé par **Microsoft**, j'ai nommé **Play Everywhere**. Ce système permet de jouer à un jeu sorti sur **Xbox One** sur votre **PC** et inversement. 

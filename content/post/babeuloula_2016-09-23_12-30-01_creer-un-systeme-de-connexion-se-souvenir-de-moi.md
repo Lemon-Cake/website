@@ -1,14 +1,14 @@
 +++
 date = "2016-09-23T12:30:01+00:00"
 draft = false
-title = "Créer un système de connexion "Se souvenir de moi""
+title = "Créer un système de connexion \"Se souvenir de moi\""
 slug = "creer-un-systeme-de-connexion-se-souvenir-de-moi"
 tags = ["PHP","Tutorial","Tutoriaux"]
 image = "https://www.babeuloula.fr/images/blog/head/keep-me-logged-in.jpg"
 comments = true
 share = true
 author = "BaBeuloula"
-description = "Réalisez facilement un formulaire de connexion avec l'option "Se souvenir de moi""
+description = "Réalisez facilement un formulaire de connexion avec l'option \"Se souvenir de moi\""
 +++
 
 Dans mon billet précédent, [**Crypter et décrypter une chaîne de caractères en PHP**](https://www.babeuloula.fr/blog/crypter-et-decrypter-une-chaine-de-caracteres-en-php.html), je vous expliquais comment crypter une chaine de caractère. Voici un cas concret de son utilisation

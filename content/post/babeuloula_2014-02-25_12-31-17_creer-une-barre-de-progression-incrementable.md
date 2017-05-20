@@ -8,7 +8,7 @@ image = "https://www.babeuloula.fr/images/blog/head/progress.jpg"
 comments = true
 share = true
 author = "BaBeuloula"
-description = "Lorsque vous faites vos scripts avec des requêtes en AJAX, vous avez sans doute dû être confronté au problème "Mais où en est la progression mon script ?""
+description = "Lorsque vous faites vos scripts avec des requêtes en AJAX, vous avez sans doute dû être confronté au problème \"Mais où en est la progression mon script ?\""
 +++
 
 Lorsque vous faites vos scripts avec des requêtes en AJAX, vous avez sans doute dû être confronté au problème "Mais où en est mon script ?". Et bien voici un petit tutorial simple pour vous apprendre à créer une barre de progression incrémentable très facilement.
