@@ -1,4 +1,3 @@
-#!/bin/bash
 rm public/* -r
 cd public/
 git add .
