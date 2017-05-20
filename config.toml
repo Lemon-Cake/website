@@ -1,5 +1,5 @@
-baseurl = "lemon-cake.github.io/"
-languageCode = "fr-fr"
+baseurl = "https://lemon-cake.github.io/"
+languageCode = "fr-FR"
 title = "Lemon Cake"
 
 [params]
